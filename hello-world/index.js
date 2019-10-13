@@ -2,7 +2,7 @@ var express = require('Express');
 var app = express();
 
 var things = require('./things.js');
-var notFound = require('./notFound.js');
+//var notFound = require('./notFound.js');
 
 // app.get('/hello', function(req, res){
 //     res.send("Hello World");
@@ -13,7 +13,7 @@ var notFound = require('./notFound.js');
 // });
 
 app.use('/things', things);
-app.use('/notFound', notFound);
+//app.use('/notFound', notFound);
 
 app.listen(3000);
 
