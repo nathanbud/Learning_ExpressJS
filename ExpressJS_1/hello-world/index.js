@@ -3,6 +3,7 @@ var app = express();
 
 var things = require('./things.js');
 
+
 // app.get('/hello', function(req, res){
 //     res.send("Hello World");
 // });
@@ -12,6 +13,7 @@ var things = require('./things.js');
 // });
 
 app.use('/things', things);
+
 
 app.listen(3000);
 
